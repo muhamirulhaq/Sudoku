@@ -1,15 +1,25 @@
 .container {
-    width: 310px;
+    background-color: lawngreen;
+    width: 306px;
     height: 310px;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .box {
+    background-color: blue;
+    color: white;
     font-size: 40px;
     text-align: center;
     width: 100px;
-    height: 100px;
-    border: 1px solid black;
+    border: 1px solid white;
     float: left;
+    padding: 27px 0px;
+}
+
+.box:active {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
 }

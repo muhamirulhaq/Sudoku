@@ -33,8 +33,7 @@ function isFifteen() {
                     continue;
                 }
                 if(parseInt(box[i].innerHTML) === parseInt(box[j].innerHTML)) {
-                    i = box.length;
-                    break;
+                    return;
                 }
                 if(j === box.length - 2 && i === box.length - 1) {
                     alert("Mantul Bro!");
